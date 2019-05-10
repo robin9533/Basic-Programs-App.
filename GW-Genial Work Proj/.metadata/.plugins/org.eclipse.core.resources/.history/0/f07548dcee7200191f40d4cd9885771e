@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+.registrationblock {
+	height:250px;
+	width: 250px;
+	float:right;
+	border:2px solid black;
+	margin-top: 20px;
+}
+.registrationblock input{
+	margin-top: 1px; 
+	border-radius:none;
+}

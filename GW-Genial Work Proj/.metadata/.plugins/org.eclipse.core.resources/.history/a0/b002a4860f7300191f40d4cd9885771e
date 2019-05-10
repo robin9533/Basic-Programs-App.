@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Registration Form</title>
+<link rel="Stylesheet" type="text/css" href="EmployeeSignup.css">
+</head>
+<body>
+
+	<div class="registrationblock">
+		<h1>
+			Genial Toil
+			</h1>
+				<Form action="EmployeeSignupServlet">
+
+					<input type="text" name="empId" placeholder="Employee Id">
+					<input type="text" name="empName" placeholder="Employee Name">
+					<input type="text" name="empDes" placeholder="Employee Designation">
+					<input type="password" name="empPass" placeholder="Password">
+					<button type="button">Sign up</button>
+
+				</Form>
+	</div>
+
+</body>
+</html>

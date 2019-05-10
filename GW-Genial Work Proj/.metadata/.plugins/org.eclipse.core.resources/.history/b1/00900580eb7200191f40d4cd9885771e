@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="ISO-8859-1">
+<title>Employee Registraion Form </title>
+</head> 
+<body>
+<br>
+<Form>
+Employee Id: <input type = "number"><br>
+Employee Name: <input type ="text"><br>
+Employee Designation: <input type ="text"><br>
+Password:<input type = "password">
+
+</Form>	
+
+</body>
+</html>

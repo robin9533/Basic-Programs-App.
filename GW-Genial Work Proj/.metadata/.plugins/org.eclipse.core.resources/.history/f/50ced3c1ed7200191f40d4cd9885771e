@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="ISO-8859-1">
+<title>Employee Registration Form </title>
+<link rel="stylesheet" type="text/css" href="EmployeeSignup.css">
+</head> 
+<body>
+<br>
+<Form>
+
+<input type = "text" name="empId" placeholder="Employee Id"><br>
+<input type ="text" name="empName" placeholder="Employee Name"><br>
+<input type ="text" name = "empDes" placeholder="Employee Designation"><br>
+<input type = "password" name = "empPass" placeholder="Password">
+
+</Form>	
+
+</body>
+</html>

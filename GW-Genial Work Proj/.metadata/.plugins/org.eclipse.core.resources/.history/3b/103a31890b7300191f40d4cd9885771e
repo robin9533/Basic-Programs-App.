@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color: #e6f7ff;
+}
+.registrationblock {
+	height:500px;
+	width: 350px;
+	float:right;
+	margin-top: 30px;
+	margin-right: 250px;
+	border-radius:10px;
+	border:0px solid black;
+	background-color: #ccccff;
+	
+}
+.registrationblock input{
+	width: 260px;
+	height:40px;
+	margin-bottom:12px;
+	margin-left:40px;
+	background: #fafafa;
+	border: none;
+	border:0px solid gray;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+.registrationblock button{
+	width:270px;
+	height:30px;
+	margin-left:20px;
+	margin-top:2px;
+	text-align: center;
+	cursor: pointer;
+	background:#e6f7ff;
+	border-radius:5px;
+	border: 0px solid #3897F0;
+	}
+.registrationblock h1{
+	margin-left: 60px;
+	cursor: default;
+	}
+

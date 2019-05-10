@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+E:\GW-Genial Work Proj\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3352681463.index
+171692011.index
+300429406.index
+1616427517.index
+593101895.index
+419540996.index
+2876190602.index

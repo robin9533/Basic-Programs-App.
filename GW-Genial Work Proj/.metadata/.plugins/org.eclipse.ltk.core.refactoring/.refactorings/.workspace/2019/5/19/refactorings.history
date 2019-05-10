@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;GW_GenialWork&apos;" deleteContents="false" description="Delete resource &apos;GW_GenialWork&apos;" element1="/GW_GenialWork" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1557468269274"/>
+</session>

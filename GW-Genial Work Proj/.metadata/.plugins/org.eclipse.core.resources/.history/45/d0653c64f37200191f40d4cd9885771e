@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+.body{
+	background-color: blue;
+}
+.registrationblock {
+	height:400px;
+	width: 300px;
+	float:right;
+	border:0px solid black;
+	margin-top: 30px;
+	margin-right: 100px
+}
+.registrationblock input{
+	width: 220px;
+	height:40px;
+	margin-top: 20px;
+	margin-left:60px;
+	border: none;
+	border:1px solid gray;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+.registrationblock button{
+	width:230px;
+	height:30px;
+	margin-left:60px;
+	margin-top:30px;
+	border-radius:5px;
+	border: 1px solid blue;
+	}
+.h2{
+	
+	}
+
