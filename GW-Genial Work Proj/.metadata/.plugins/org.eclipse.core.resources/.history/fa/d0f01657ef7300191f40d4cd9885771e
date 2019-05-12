@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="Stylesheet" type="text/css" href="EmployeeSignup.css">
+</head>
+<body>
+
+	<div class="imgblock">
+		<img src="signup.png">
+	 </div>
+
+	<div class="registrationblock">
+		<h1>Genial Toil</h1>
+		<h4>Employee's new Password!</h4>
+		
+
+		<Form action="NewPasswordServlet">
+
+			<input type="password" name="empIdPw" placeholder="Enter new Password">
+			<input type="password" name="confirmPw" placeholder="Confirm new Password">
+			<button type="button">Update</button>
+
+			<h5>By registering your employees, you agree to our Terms! </h5>
+				<h5>Sign-in Policy!!<input type="text" name="empDes" placeholder="Employee Designation"></h5>
+
+		</Form>
+	</div>
+</body>
+</html>

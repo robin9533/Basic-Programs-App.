@@ -1,0 +1,27 @@
+package com.reg.gt.Admin;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Statement;
+import com.regnant.gt.jdbc.DBConnection;
+
+public class DBCRUDOperations {
+	public int UpdatedOperation() throws SQLException {
+		Statement stm;
+		String noOfRows = 0;
+		Connection conn;
+		try {
+			conn = DBConnection.getConnection();
+			stm = (Statement) conn.createStatement();
+			String UpdateQuery = "Update user_tbl SET pasword = WHERE id= ";
+			noOfRows = stm.executeUpdate(UpdateQuery);
+			conn.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return noOfRows;
+	}	
+}

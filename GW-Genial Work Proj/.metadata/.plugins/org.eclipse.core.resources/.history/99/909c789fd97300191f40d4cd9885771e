@@ -1,0 +1,32 @@
+package com.reg.gt.Admin;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import com.regnant.gt.jdbc.DBConnection;
+
+public class DBCRUDOperations {
+	public static int UpdatedOperation(String emp_id , String password) throws SQLException {
+		PreparedStatement pstm;
+		int noOfRows = 0;
+		Connection conn;
+		try {
+			conn = DBConnection.getConnection();
+			String UpdateQuery = "UPDATE sra_ltd.employee_tbl SET password = ? WHERE emp_id = ?";
+			pstm = conn.prepareStatement(UpdateQuery);
+			pstm.setString(1, emp_id);
+			pstm.setString(2, password);
+			noOfRows = pstm.executeUpdate();
+			conn.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return noOfRows;
+	}	
+	
+	public static void main(String[] args) throws SQLException {
+		UpdatedOperation(emlpyee)
+	}
+}

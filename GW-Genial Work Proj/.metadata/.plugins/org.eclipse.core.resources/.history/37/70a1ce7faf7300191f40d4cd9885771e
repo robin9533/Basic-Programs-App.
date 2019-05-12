@@ -1,0 +1,5 @@
+package com.regnant.gt.jdbc;
+
+public class DBConnection {
+
+}

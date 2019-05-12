@@ -4,11 +4,11 @@ body{
 	background-color: #e6f7ff;
 }
 .registrationblock {
-	height:500px;
+	height:480px;
 	width: 350px;
 	float:right;
-	margin-top: 30px;
-	margin-right: 250px;
+	position:fixed;
+	margin: 30px 50px 10px 750px;
 	border-radius:10px;
 	border:0px solid black;
 	background-color: #ccccff;
@@ -26,8 +26,7 @@ body{
 .registrationblock input{
 	width: 260px;
 	height:40px;
-	margin-bottom:6px;
-	margin-left:40px;
+	margin: 0px 0px 6px 40px;
 	padding-left: 10px;
 	color:graytext;
 	background: #fafafa;
@@ -39,7 +38,7 @@ body{
 .registrationblock button{
 	width:270px;
 	height:30px;
-	margin-left:40px;
+	margin: 0px 0px 6px 40px;
 	text-align: center;
 	cursor: pointer;
 	color: #DADAD8;
@@ -68,6 +67,17 @@ body{
 	}
 .registrationblock h5{
 	padding-left:50px;
+	padding-right:10px;
+	margin:16px 0px 0px 0px;
+	font-family:monospace;
+	font-size:16px;
+	color: grey;
+	cursor: default;
+	border: 0px solid black;
+	}
+
+.registrationblock h6{
+	padding-left:100px;
 	padding-right:10px;
 	margin:16px 0px 0px 0px;
 	font-family:monospace;
